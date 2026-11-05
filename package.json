@@ -1,0 +1,14 @@
+{
+  "name": "campus-lost-found",
+  "version": "1.0.0",
+  "description": "Campus Lost & Found system - Node.js, Express, SQLite, vanilla JS frontend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=22.13" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
